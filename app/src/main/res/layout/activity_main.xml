@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_dialog_dialer"
+            app:tint="#404040" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:paddingStart="40dp"
+            android:text="The temperature is"
+            android:textColor="#ffffff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/tempDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="40dp"
+            android:text="25&#xb0;C"
+            android:textColor="#ffffff"
+            android:textSize="80sp"
+            android:textStyle="bold"></TextView>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="40dp"
+            android:text="There are scattered clouds in"
+            android:textColor="#ffffff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="40dp"
+            android:text="Mountain View"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="40dp"
+            android:text="US"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="182dp"
+            app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    </LinearLayout>
+
+</RelativeLayout>
